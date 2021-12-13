@@ -1,0 +1,174 @@
+.sec1 {
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-image: url("../../src/assets/bg1.png");
+  background-repeat: round;
+}
+
+.hero-sec {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headline {
+  width: 38%;
+}
+
+.catalog-btn {
+  padding: 2px 22px;
+  margin-top: 225px;
+  border-radius: 16px;
+  background-color: rgba(243, 214, 66, 85%);
+  box-shadow: 8px 14px 10px 0px rgba(0, 0, 0, 0.25);
+
+  a {
+    color: #322b2b;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Reem Kufi", sans-serif;
+  }
+}
+
+.aboutus-sec {
+  margin-left: 80px;
+  margin-right: 80px;
+
+  div {
+    padding: 30px 50px;
+  }
+}
+
+.info-sec {
+  margin-top: 115px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.info {
+  display: flex;
+  background-color: rgba(243, 214, 66, 0.25);
+  padding: 50px;
+  border-radius: 20px;
+  justify-content: space-around;
+}
+
+.yellow-circle {
+  background-color: #f3d642;
+  padding: 25px 15px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  text-align: center;
+
+  p {
+    margin-bottom: 0;
+    line-height: 15px;
+  }
+
+  h2 {
+    letter-spacing: normal;
+  }
+}
+
+.yellow-rectangle {
+  width: 47%;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  border: 10px solid rgba(243, 214, 66, 0.25);
+  ul {
+    li {
+      list-style-type: circle;
+      a {
+        text-decoration: underline;
+        color: #e5d5d5;
+      }
+    }
+  }
+}
+
+.moreinfo-btn {
+  background-color: #f3d642;
+  border-radius: 10px;
+  padding: 5px 20px;
+  color: #322b2b;
+}
+
+.bg2 {
+  background-image: url("../../src/assets/bg2.png");
+  background-repeat: round;
+}
+
+.bg3 {
+  background-image: url("../../src/assets/bg3.png");
+  background-repeat: round;
+}
+
+.pr-50 {
+  padding-right: 50px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.mx-80 {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.mt-115 {
+  margin-top: 115px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.ml-75 {
+  margin-left: 75px !important;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.radius20 {
+  border-radius: 20px;
+}
+
+.space-between {
+  justify-content: space-between;
+}

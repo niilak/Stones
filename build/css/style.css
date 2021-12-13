@@ -1,0 +1,356 @@
+body {
+  font-family: "Reem Kufi", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+}
+
+h1 {
+  font-size: 86px;
+  font-weight: normal;
+  margin: 0;
+  letter-spacing: 13px;
+  word-spacing: 8px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 62px;
+  font-weight: normal;
+  margin: 0;
+  letter-spacing: 13px;
+  word-spacing: 8px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: normal;
+  margin: 0;
+  letter-spacing: 13px;
+  word-spacing: 8px;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+  letter-spacing: 13px;
+  word-spacing: 8px;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 30px;
+  letter-spacing: 1.3px;
+  word-spacing: 3px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.font-70 {
+  font-size: 70px;
+}
+
+.grey-bg {
+  background-color: #474141;
+}
+
+.grey {
+  color: #474141;
+}
+
+.grey04-bg {
+  background-color: rgba(196, 196, 196, 0.4);
+}
+
+.grey04 {
+  color: rgba(196, 196, 196, 0.4);
+}
+
+.greytext-bg {
+  background-color: #322b2b;
+}
+
+.greytext {
+  color: #322b2b;
+}
+
+.yellow-bg {
+  background-color: #f3d642;
+}
+
+.yellow {
+  color: #f3d642;
+}
+
+.yellow85-bg {
+  background-color: rgba(243, 214, 66, 0.85);
+}
+
+.yellow85 {
+  color: rgba(243, 214, 66, 0.85);
+}
+
+.yellow25-bg {
+  background-color: rgba(243, 214, 66, 0.25);
+}
+
+.yellow25 {
+  color: rgba(243, 214, 66, 0.25);
+}
+
+.rose-bg {
+  background-color: #e6d5d5;
+}
+
+.rose {
+  color: #e6d5d5;
+}
+
+.rosetext-bg {
+  background-color: #e5d5d5;
+}
+
+.rosetext {
+  color: #e5d5d5;
+}
+
+.sec1 {
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-image: url("../../src/assets/bg1.png");
+  background-repeat: round;
+}
+
+.hero-sec {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.headline {
+  width: 38%;
+}
+
+.catalog-btn {
+  padding: 2px 22px;
+  margin-top: 225px;
+  border-radius: 16px;
+  background-color: #f3d642;
+  -webkit-box-shadow: 8px 14px 10px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 8px 14px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.catalog-btn a {
+  color: #322b2b;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Reem Kufi", sans-serif;
+}
+
+.aboutus-sec {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.aboutus-sec div {
+  padding: 30px 50px;
+}
+
+.info-sec {
+  margin-top: 115px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(243, 214, 66, 0.25);
+  padding: 50px;
+  border-radius: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.yellow-circle {
+  background-color: #f3d642;
+  padding: 25px 15px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.yellow-circle p {
+  margin-bottom: 0;
+  line-height: 15px;
+}
+
+.yellow-circle h2 {
+  letter-spacing: normal;
+}
+
+.yellow-rectangle {
+  width: 47%;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  border: 10px solid rgba(243, 214, 66, 0.25);
+}
+
+.yellow-rectangle ul li {
+  list-style-type: circle;
+}
+
+.yellow-rectangle ul li a {
+  text-decoration: underline;
+  color: #e5d5d5;
+}
+
+.moreinfo-btn {
+  background-color: #f3d642;
+  border-radius: 10px;
+  padding: 5px 20px;
+  color: #322b2b;
+}
+
+.bg2 {
+  background-image: url("../../src/assets/bg2.png");
+  background-repeat: round;
+}
+
+.bg3 {
+  background-image: url("../../src/assets/bg3.png");
+  background-repeat: round;
+}
+
+.pr-50 {
+  padding-right: 50px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.mx-80 {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.mt-115 {
+  margin-top: 115px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.ml-75 {
+  margin-left: 75px !important;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.radius20 {
+  border-radius: 20px;
+}
+
+.space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.carousel-inner {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel-item {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  float: none !important;
+  width: auto !important;
+  margin-right: 0 !important;
+}

@@ -1,0 +1,20 @@
+$theme-colors: (
+  "grey": #474141,
+  "grey04": rgba(196, 196, 196, 0.4),
+  "greytext": #322b2b,
+  "yellow": #f3d642,
+  "yellow85": rgba(243, 214, 66, 0.85),
+  "yellow25": rgba(243, 214, 66, 0.25),
+  "rose": #e6d5d5,
+  "rosetext": #e5d5d5,
+);
+
+@each $theme-color, $color in $theme-colors {
+  .#{$theme-color}-bg {
+    background-color: $color;
+  }
+
+  .#{$theme-color} {
+    color: $color;
+  }
+}
