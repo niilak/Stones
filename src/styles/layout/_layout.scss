@@ -94,8 +94,30 @@
 .moreinfo-btn {
   background-color: #f3d642;
   border-radius: 10px;
-  padding: 5px 20px;
+  padding: 5px 25px;
   color: #322b2b;
+}
+
+.contact-box {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-box {
+  text-align: center;
+  color: #e5d5d5;
+
+  img {
+    margin-bottom: 25px;
+  }
+}
+
+.footer-logo {
+  position: absolute;
+  bottom: 5px;
+  left: 25px;
 }
 
 .bg2 {
@@ -106,6 +128,36 @@
 .bg3 {
   background-image: url("../../src/assets/bg3.png");
   background-repeat: round;
+}
+
+.bg4 {
+  background-image: url("../../src/assets/keysBackground.png");
+  background-repeat: round;
+  display: flex;
+  justify-content: center;
+
+  img {
+    margin-right: 160px;
+  }
+
+  h2 {
+    width: 30%;
+    align-self: center;
+  }
+}
+
+.bg5 {
+  position: relative;
+  background-image: url("../../src/assets/maps.png");
+  background-repeat: round;
+  margin-top: 40px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .pr-50 {
@@ -124,9 +176,18 @@
   padding-bottom: 10px;
 }
 
+.pb-250 {
+  padding-bottom: 250px;
+}
+
 .mx-80 {
   margin-left: 80px;
   margin-right: 80px;
+}
+
+.mx-135 {
+  margin-left: 135px;
+  margin-right: 135px;
 }
 
 .mt-115 {
@@ -172,3 +233,7 @@
 .space-between {
   justify-content: space-between;
 }
+
+// .text-center {
+//   text-align: center;
+// }

@@ -249,8 +249,36 @@ p {
 .moreinfo-btn {
   background-color: #f3d642;
   border-radius: 10px;
-  padding: 5px 20px;
+  padding: 5px 25px;
   color: #322b2b;
+}
+
+.contact-box {
+  margin-top: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icon-box {
+  text-align: center;
+  color: #e5d5d5;
+}
+
+.icon-box img {
+  margin-bottom: 25px;
+}
+
+.footer-logo {
+  position: absolute;
+  bottom: 5px;
+  left: 25px;
 }
 
 .bg2 {
@@ -261,6 +289,42 @@ p {
 .bg3 {
   background-image: url("../../src/assets/bg3.png");
   background-repeat: round;
+}
+
+.bg4 {
+  background-image: url("../../src/assets/keysBackground.png");
+  background-repeat: round;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bg4 img {
+  margin-right: 160px;
+}
+
+.bg4 h2 {
+  width: 30%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.bg5 {
+  position: relative;
+  background-image: url("../../src/assets/maps.png");
+  background-repeat: round;
+  margin-top: 40px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .pr-50 {
@@ -279,9 +343,18 @@ p {
   padding-bottom: 10px;
 }
 
+.pb-250 {
+  padding-bottom: 250px;
+}
+
 .mx-80 {
   margin-left: 80px;
   margin-right: 80px;
+}
+
+.mx-135 {
+  margin-left: 135px;
+  margin-right: 135px;
 }
 
 .mt-115 {
