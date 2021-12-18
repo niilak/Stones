@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   font-family: "Reem Kufi", sans-serif;
   margin: 0;
@@ -184,6 +189,12 @@ p {
   font-family: "Reem Kufi", sans-serif;
 }
 
+.catalog-btn:hover {
+  padding: 4px 25px;
+  -webkit-transition: 5ms;
+  transition: 5ms;
+}
+
 .aboutus-sec {
   margin-left: 80px;
   margin-right: 80px;
@@ -194,7 +205,6 @@ p {
 }
 
 .info-sec {
-  margin-top: 115px;
   margin-bottom: 100px;
   margin-right: 80px;
   margin-left: 80px;
@@ -254,7 +264,7 @@ p {
 }
 
 .contact-box {
-  margin-top: 90px;
+  margin-top: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -275,6 +285,17 @@ p {
   margin-bottom: 25px;
 }
 
+.location {
+  position: relative;
+}
+
+.location :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
 .footer-logo {
   position: absolute;
   bottom: 5px;
@@ -284,6 +305,8 @@ p {
 .bg2 {
   background-image: url("../../src/assets/bg2.png");
   background-repeat: round;
+  padding-bottom: 115px;
+  padding-top: 100px;
 }
 
 .bg3 {
@@ -320,6 +343,12 @@ p {
   margin-top: 40px;
   padding-top: 60px;
   text-align: center;
+}
+
+.location :hover img {
+  width: 100px;
+  -webkit-transition: 1s ease-out;
+  transition: 1s ease-out;
 }
 
 .py-50 {
@@ -359,6 +388,10 @@ p {
 
 .mt-115 {
   margin-top: 115px;
+}
+
+.mt-80 {
+  margin-top: 80px;
 }
 
 .mb-50 {
@@ -420,10 +453,50 @@ p {
 }
 
 .carousel-item {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: block;
   float: none !important;
-  width: auto !important;
   margin-right: 0 !important;
+  padding: 25px;
+  -webkit-box-shadow: 2px 10px 8px 10px #1b1b1b5d;
+          box-shadow: 2px 10px 8px 10px #1b1b1b5d;
+}
+
+.carousel-item :hover {
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+}
+
+.inner-c {
+  display: none;
+  background: rgba(196, 196, 196, 0.4);
+  border-radius: 20px;
+  padding: 25px 10px;
+  height: 100%;
+}
+
+.inner-c p {
+  font-size: 20px;
+}
+
+.inner-c h3,
+.inner-c p {
+  text-align: center;
+}
+
+.house1bg {
+  width: 300px;
+  height: 300px;
+  background-image: url(../../src/assets/house1.png);
+}
+
+.house2bg {
+  width: 350px;
+  height: 350px;
+  background-image: url(../../src/assets/house2.png);
+}
+
+.house3bg {
+  width: 300px;
+  height: 300px;
+  background-image: url(../../src/assets/house3.png);
 }

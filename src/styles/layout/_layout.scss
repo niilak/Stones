@@ -1,3 +1,9 @@
+// .big-container,
+// .grey-bg {
+//   position: relative;
+//   z-index: -5;
+// }
+
 .sec1 {
   padding-top: 50px;
   padding-left: 80px;
@@ -32,6 +38,11 @@
   }
 }
 
+.catalog-btn:hover {
+  padding: 4px 25px;
+  transition: 5ms;
+}
+
 .aboutus-sec {
   margin-left: 80px;
   margin-right: 80px;
@@ -42,7 +53,6 @@
 }
 
 .info-sec {
-  margin-top: 115px;
   margin-bottom: 100px;
   margin-right: 80px;
   margin-left: 80px;
@@ -99,7 +109,7 @@
 }
 
 .contact-box {
-  margin-top: 90px;
+  margin-top: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,6 +124,14 @@
   }
 }
 
+.location {
+  position: relative;
+  :hover {
+    transform: scale(1.1);
+    transition: 2s;
+  }
+}
+
 .footer-logo {
   position: absolute;
   bottom: 5px;
@@ -123,6 +141,10 @@
 .bg2 {
   background-image: url("../../src/assets/bg2.png");
   background-repeat: round;
+  padding-bottom: 115px;
+  padding-top: 100px;
+  // position: relative;
+  // z-index: -4;
 }
 
 .bg3 {
@@ -153,6 +175,13 @@
   margin-top: 40px;
   padding-top: 60px;
   text-align: center;
+}
+
+.location :hover {
+  img {
+    width: 100px;
+    transition: 1s ease-out;
+  }
 }
 
 .py-50 {
@@ -192,6 +221,10 @@
 
 .mt-115 {
   margin-top: 115px;
+}
+
+.mt-80 {
+  margin-top: 80px;
 }
 
 .mb-50 {
@@ -234,6 +267,12 @@
   justify-content: space-between;
 }
 
-// .text-center {
-//   text-align: center;
+// .size300x300 {
+//   width: 300px;
+//   height: 300px;
+// }
+
+// .size350x350 {
+//   width: 350px;
+//   height: 350px;
 // }
