@@ -1,2 +1,2 @@
 deploy: 
-	npx surge ./build/
+	npx surge ./build

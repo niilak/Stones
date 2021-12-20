@@ -5,6 +5,21 @@
   align-items: center;
 }
 
+.carousel-control-prev-icon {
+  background-image: url("../assets/previous.png") !important;
+  height: 5rem !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../assets/next.png") !important;
+  height: 5rem !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10% !important;
+}
+
 .carousel-item {
   display: flex;
   align-items: center;
@@ -42,7 +57,7 @@
 .house1bg {
   width: 300px;
   height: 300px;
-  background-image: url(/build/assets/house1.png);
+  background-image: url(../assets/house1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,11 +66,11 @@
 .house2bg {
   width: 350px;
   height: 350px;
-  background-image: url(/build/assets/house2.png);
+  background-image: url(../assets/house2.png);
 }
 
 .house3bg {
   width: 300px;
   height: 300px;
-  background-image: url(/build/assets/house3.png);
+  background-image: url(../assets/house3.png);
 }

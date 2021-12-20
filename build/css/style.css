@@ -150,11 +150,16 @@ p {
   color: #e5d5d5;
 }
 
+.grey-bg {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .sec1 {
   padding-top: 50px;
   padding-left: 80px;
   padding-right: 80px;
-  background-image: url("/build/assets/bg1.png");
+  background-image: url("../assets/bg1.png");
   background-repeat: round;
 }
 
@@ -171,6 +176,12 @@ p {
 
 .headline {
   width: 38%;
+}
+
+nav .d-flex a:hover {
+  cursor: pointer;
+  color: #e5d5d5;
+  border-bottom: 2px solid #e5d5d5;
 }
 
 .catalog-btn {
@@ -190,9 +201,10 @@ p {
 }
 
 .catalog-btn:hover {
-  padding: 4px 25px;
-  -webkit-transition: 5ms;
-  transition: 5ms;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .aboutus-sec {
@@ -326,7 +338,7 @@ p {
 }
 
 .bg4 img {
-  margin-right: 160px;
+  margin-right: 100px;
 }
 
 .bg4 h2 {
@@ -334,10 +346,12 @@ p {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  line-height: 90px;
 }
 
 .bg5 {
   position: relative;
+  height: 440px;
   background-image: url("../assets/maps.png");
   background-repeat: round;
   margin-top: 40px;
@@ -350,8 +364,8 @@ p {
   padding-bottom: 50px;
 }
 
-.pr-50 {
-  padding-right: 50px;
+.mr-50 {
+  margin-right: 50px;
 }
 
 .pb-100 {
@@ -398,6 +412,10 @@ p {
 
 .mb-40 {
   margin-bottom: 40px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .ml-75 {
@@ -447,6 +465,21 @@ p {
           align-items: center;
 }
 
+.carousel-control-prev-icon {
+  background-image: url("../assets/previous.png") !important;
+  height: 5rem !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../assets/next.png") !important;
+  height: 5rem !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10% !important;
+}
+
 .carousel-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -491,7 +524,7 @@ p {
 .house1bg {
   width: 300px;
   height: 300px;
-  background-image: url(/build/assets/house1.png);
+  background-image: url(../assets/house1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -500,11 +533,11 @@ p {
 .house2bg {
   width: 350px;
   height: 350px;
-  background-image: url(/build/assets/house2.png);
+  background-image: url(../assets/house2.png);
 }
 
 .house3bg {
   width: 300px;
   height: 300px;
-  background-image: url(/build/assets/house3.png);
+  background-image: url(../assets/house3.png);
 }
