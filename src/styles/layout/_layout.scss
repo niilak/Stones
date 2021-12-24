@@ -6,7 +6,6 @@
   padding-top: 50px;
   padding-left: 80px;
   padding-right: 80px;
-  // background-image: url("../../../build/assets/bg1.png");
   background-image: url("../../../build/assets/bg1.png");
   background-repeat: round;
 }
@@ -30,6 +29,10 @@ nav {
       border-bottom: 2px solid #e5d5d5;
     }
   }
+}
+
+.burger-meni {
+  display: none;
 }
 
 .catalog-btn {
@@ -197,7 +200,6 @@ nav {
   position: relative;
   height: 440px;
   background-image: url("../../../build/assets/location.png");
-  // background-repeat: round;
   margin-top: 40px;
   padding-top: 60px;
   text-align: center;
@@ -272,10 +274,6 @@ nav {
 
 .d-flex {
   display: flex;
-}
-
-.d-inline {
-  display: inline;
 }
 
 .align-center {

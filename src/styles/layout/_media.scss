@@ -1,3 +1,24 @@
+@media screen and (max-width: 800px) {
+  .nav {
+    display: none !important;
+  }
+
+  .burger-meni {
+    display: inline;
+    width: 9%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 57px;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   .bg4 h2 {
     width: 40%;
@@ -113,19 +134,10 @@
   .carousel-control-prev {
     width: 4% !important;
   }
-}
 
-@media screen and (min-width: 1600px) {
-  .carousel {
-    margin-right: 80px;
-    margin-left: 80px;
-  }
-}
-
-@media screen and (min-width: 1800px) {
-  .carousel {
-    margin-right: 120px;
-    margin-left: 120px;
+  .sec1,
+  .bg3 {
+    background-repeat: space;
   }
 }
 
@@ -142,16 +154,17 @@
   }
 }
 
-@media screen and (min-width: 1500px) {
-  .aboutus-sec,
-  .mx-80 {
-    margin-left: 160px;
-    margin-right: 160px;
+@media screen and (min-width: 1600px) {
+  .carousel {
+    margin-right: 80px;
+    margin-left: 80px;
   }
+}
 
-  .sec1 {
-    padding-left: 160px;
-    padding-right: 160px;
+@media screen and (min-width: 1800px) {
+  .carousel {
+    margin-right: 120px;
+    margin-left: 120px;
   }
 }
 
