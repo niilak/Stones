@@ -6,7 +6,8 @@
   padding-top: 50px;
   padding-left: 80px;
   padding-right: 80px;
-  background-image: url("../assets/bg1.png");
+  // background-image: url("../../../build/assets/bg1.png");
+  background-image: url("../../../build/assets/bg1.png");
   background-repeat: round;
 }
 
@@ -27,7 +28,6 @@ nav {
       cursor: pointer;
       color: #e5d5d5;
       border-bottom: 2px solid #e5d5d5;
-      // transition: 1s ease-in-out;
     }
   }
 }
@@ -63,8 +63,8 @@ nav {
 
 .info-sec {
   margin-bottom: 100px;
-  margin-right: 80px;
-  margin-left: 80px;
+  // margin-right: 80px;
+  // margin-left: 80px;
 }
 
 .info {
@@ -102,11 +102,16 @@ nav {
   ul {
     li {
       list-style-type: circle;
+      margin-bottom: 10px;
       a {
         text-decoration: underline;
         color: #e5d5d5;
       }
     }
+  }
+  ol,
+  ul {
+    padding-left: 1rem;
   }
 }
 
@@ -134,10 +139,21 @@ nav {
 }
 
 .location {
+  animation: MoveUpDown 2s linear infinite;
   position: relative;
-  :hover {
-    transform: scale(1.1);
-    transition: 1s ease-in-out;
+  // :hover {
+  //   transform: scale(1.1);
+  //   transition: 1s ease-in-out;
+  // }
+}
+
+@keyframes MoveUpDown {
+  0%,
+  75% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 50px;
   }
 }
 
@@ -148,19 +164,20 @@ nav {
 }
 
 .bg2 {
-  background-image: url("../assets/bg2.png");
-  background-repeat: round;
+  background-image: url("../../../build/assets/bg2.png");
+  background-repeat: repeat-x;
   padding-bottom: 115px;
   padding-top: 100px;
+  box-shadow: 61px -145px 200px 50px #474141e3 inset;
 }
 
 .bg3 {
-  background-image: url("../assets/bg3.png");
+  background-image: url("../../../build/assets/bg3.png");
   background-repeat: round;
 }
 
 .bg4 {
-  background-image: url("../assets/keysBackground.png");
+  background-image: url("../../../build/assets/keysBackground.png");
   background-repeat: round;
   display: flex;
   justify-content: center;
@@ -179,8 +196,8 @@ nav {
 .bg5 {
   position: relative;
   height: 440px;
-  background-image: url("../assets/maps.png");
-  background-repeat: round;
+  background-image: url("../../../build/assets/location.png");
+  // background-repeat: round;
   margin-top: 40px;
   padding-top: 60px;
   text-align: center;
