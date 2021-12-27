@@ -1,56 +1,52 @@
-@media screen and (max-width: 800px) {
-  .nav {
-    display: none !important;
-  }
-
-  .burger-meni {
-    display: inline;
-    width: 9%;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  h1 {
-    font-size: 72px;
-  }
-
-  h2 {
-    font-size: 57px;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .bg4 h2 {
-    width: 40%;
-  }
-
-  nav {
-    div {
-      .mr-50 {
-        margin-right: 25px;
-      }
-    }
-  }
-
+@media screen and (min-width: 1800px) {
   .carousel {
-    display: flex;
-    justify-content: center;
+    margin-right: 120px;
+    margin-left: 120px;
   }
+}
 
-  .carousel-control-next,
-  .carousel-control-prev {
-    display: none !important;
-  }
-
+@media screen and (min-width: 1700px) {
   .aboutus-sec,
   .mx-80 {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 
   .sec1 {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .carousel {
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .aboutus-sec,
+  .mx-80 {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  .sec1 {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 4% !important;
+  }
+
+  .sec1,
+  .bg3 {
+    background-repeat: space;
   }
 }
 
@@ -129,54 +125,94 @@
   }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
+  .bg4 h2 {
+    width: 40%;
+  }
+
+  nav {
+    div {
+      .mr-50 {
+        margin-right: 25px;
+      }
+    }
+  }
+
+  .carousel {
+    display: flex;
+    justify-content: center;
+  }
+
   .carousel-control-next,
   .carousel-control-prev {
-    width: 4% !important;
+    display: none !important;
   }
 
-  .sec1,
-  .bg3 {
-    background-repeat: space;
-  }
-}
-
-@media screen and (min-width: 1500px) {
   .aboutus-sec,
   .mx-80 {
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .sec1 {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .info {
+    padding: 0;
   }
 }
 
-@media screen and (min-width: 1600px) {
-  .carousel {
-    margin-right: 80px;
-    margin-left: 80px;
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 72px;
   }
-}
 
-@media screen and (min-width: 1800px) {
-  .carousel {
-    margin-right: 120px;
-    margin-left: 120px;
+  h2 {
+    font-size: 57px;
   }
-}
 
-@media screen and (min-width: 1700px) {
-  .aboutus-sec,
+  .info {
+    // padding: 0;
+    background-color: transparent;
+    width: 100%;
+  }
+
   .mx-80 {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav {
+    display: none !important;
   }
 
-  .sec1 {
-    padding-left: 200px;
-    padding-right: 200px;
+  .burger-meni {
+    display: inline;
+    width: 9%;
+  }
+
+  .set-icon {
+    display: none;
+  }
+
+  .hero-sec {
+    display: block;
+  }
+  .button {
+    margin-top: 50px;
+  }
+  button {
+    margin: auto;
+  }
+
+  .yellow-circle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 }
