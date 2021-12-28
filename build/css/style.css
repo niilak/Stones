@@ -665,6 +665,11 @@ nav .d-flex a:hover {
 }
 
 @media screen and (max-width: 800px) {
+  p {
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.3px;
+  }
   .nav {
     display: none !important;
   }
@@ -678,16 +683,39 @@ nav .d-flex a:hover {
   .hero-sec {
     display: block;
   }
-  .button {
+  .catalog-btn {
     margin-top: 50px;
-  }
-  button {
-    margin: auto;
   }
   .yellow-circle {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 5px;
     padding-left: 5px;
+  }
+  .button {
+    text-align: center;
+  }
+  .aboutus-sec div {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+  }
+  .catalog-btn a {
+    font-size: 25px;
   }
 }
