@@ -130,6 +130,10 @@
     width: 40%;
   }
 
+  .bg4 img {
+    margin-right: 60px;
+  }
+
   nav {
     div {
       .mr-50 {
@@ -160,21 +164,22 @@
   }
 
   .info {
-    padding: 0;
+    padding: 20px 0;
   }
 }
 
 @media screen and (max-width: 1000px) {
   h1 {
-    font-size: 72px;
+    font-size: 68px;
   }
 
   h2 {
-    font-size: 57px;
+    font-size: 52px;
+    line-height: 77px !important;
+    letter-spacing: 10px;
   }
 
   .info {
-    // padding: 0;
     background-color: transparent;
     width: 100%;
   }
@@ -183,9 +188,53 @@
     margin-right: 0;
     margin-left: 0;
   }
+
+  .row {
+    padding: 0 20px;
+  }
+
+  .bg4 {
+    img {
+      margin-right: 50px;
+      width: 348px;
+      height: 488px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  .bg4 {
+    img {
+      margin-right: 35px;
+    }
+  }
 }
 
 @media screen and (max-width: 800px) {
+  h1 {
+    font-size: 55px;
+    letter-spacing: 12px;
+  }
+
+  h2 {
+    font-size: 38px;
+    letter-spacing: 10px;
+    line-height: 70px !important;
+  }
+
+  h3 {
+    font-size: 30px;
+    letter-spacing: 11px;
+  }
+
   p {
     font-size: 14px;
     line-height: 28px;
@@ -209,21 +258,46 @@
     display: block;
   }
 
-  // .headline {
-  //   .mr-50 {
-  //     margin-right: 0;
-  //   }
-  // }
+  .headline {
+    width: 100%;
+  }
 
   .catalog-btn {
     margin-top: 50px;
   }
 
   .yellow-circle {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding: 12px 12px;
+    min-width: 140px;
+    min-height: 140px;
+
+    .pb-10,
+    .pb-15 {
+      padding-bottom: 0;
+    }
+
+    h2 {
+      font-size: 46px;
+    }
+
+    &:nth-child(1) {
+      margin-right: 10px;
+    }
+
+    &:nth-child(2) {
+      margin-right: 10px;
+    }
+
+    &:nth-child(3) {
+      margin-right: 10px;
+    }
+
+    &:nth-child(4) {
+      margin-right: 10px;
+    }
+
+    // &:nth-child(5) {
+    // }
   }
 
   .button {
@@ -235,11 +309,39 @@
       padding: 30px;
     }
   }
+
+  .bg4 {
+    img {
+      width: 48%;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 65px !important;
+  }
+  .sec1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+  }
+
+  .aboutus-sec {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 @media screen and (max-width: 560px) {
   h1 {
-    font-size: 35px;
+    font-size: 28px;
   }
 
   h2 {
@@ -248,12 +350,18 @@
 
   h3 {
     font-size: 20px;
+    letter-spacing: 10px;
   }
 
   p {
     font-size: 12px;
     line-height: 25px;
     letter-spacing: 0.2px;
+  }
+  .sec1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
   }
 
   .catalog-btn {

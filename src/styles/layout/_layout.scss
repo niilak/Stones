@@ -7,8 +7,9 @@
   padding-top: 50px;
   padding-left: 80px;
   padding-right: 80px;
-  background-image: url("../../../build/assets/bg1.png");
+  background-image: url("../assets/bg1.png");
   background-repeat: round;
+  box-shadow: inset 0px -20px 40px 11px #474141;
 }
 
 .hero-sec {
@@ -67,8 +68,6 @@ nav {
 
 .info-sec {
   margin-bottom: 100px;
-  // margin-right: 80px;
-  // margin-left: 80px;
 }
 
 .info {
@@ -145,10 +144,6 @@ nav {
 .location {
   animation: MoveUpDown 2s linear infinite;
   position: relative;
-  // :hover {
-  //   transform: scale(1.1);
-  //   transition: 1s ease-in-out;
-  // }
 }
 
 @keyframes MoveUpDown {
@@ -168,7 +163,7 @@ nav {
 }
 
 .bg2 {
-  background-image: url("../../../build/assets/bg2.png");
+  background-image: url("../assets/bg2.png");
   background-repeat: repeat-x;
   padding-bottom: 115px;
   padding-top: 100px;
@@ -176,12 +171,12 @@ nav {
 }
 
 .bg3 {
-  background-image: url("../../../build/assets/bg3.png");
+  background-image: url("../assets/bg3.png");
   background-repeat: round;
 }
 
 .bg4 {
-  background-image: url("../../../build/assets/keysBackground.png");
+  background-image: url("../assets/keysBackground.png");
   background-repeat: round;
   display: flex;
   justify-content: center;
@@ -200,7 +195,7 @@ nav {
 .bg5 {
   position: relative;
   height: 440px;
-  background-image: url("../../../build/assets/location.png");
+  background-image: url("../assets/location.png");
   margin-top: 40px;
   padding-top: 60px;
   text-align: center;
@@ -288,10 +283,3 @@ nav {
 .space-between {
   justify-content: space-between;
 }
-
-// .cut-text {
-//   display: inline-block;
-//   white-space: nowrap;
-//   overflow: hidden !important;
-//   text-overflow: ellipsis;
-// }
