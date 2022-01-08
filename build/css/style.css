@@ -194,14 +194,14 @@ nav .d-flex a:hover {
 }
 
 .open-menu {
+  position: absolute;
   height: 100%;
-  width: 90%;
+  width: 85%;
   top: 0;
   left: 0;
-  position: absolute;
   background-color: #e6d5d5;
   padding-top: 100px;
-  padding-left: 50px;
+  padding-left: 25px;
 }
 
 .open-menu h2 {
@@ -902,6 +902,9 @@ nav .d-flex a:hover {
     font-size: 12px;
     line-height: 25px;
     letter-spacing: 0.2px;
+  }
+  nav .logo {
+    width: 40%;
   }
   .sec1 {
     padding-left: 10px;

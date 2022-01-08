@@ -43,14 +43,15 @@ nav {
 }
 
 .open-menu {
+  position: absolute;
   height: 100%;
-  width: 90%;
+  width: 85%;
   top: 0;
   left: 0;
-  position: absolute;
-  background-color: rgba(230, 213, 213, 89%);
+  background-color: rgba(230, 213, 213, 87%);
   padding-top: 100px;
-  padding-left: 50px;
+  padding-left: 25px;
+
   h2 {
     color: #322b2b;
     margin-bottom: 70px;

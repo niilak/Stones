@@ -37,17 +37,20 @@
   <body class="grey-bg">
     <div class="big-container">
       <div class="sec1">
-        <nav class="d-flex">
-          <img
-            src="assets/logo.png"
-            alt="Stones Logo"
-            class="mr-auto"
-          />
-          <img
-            src="assets/icon/meni.svg"
-            alt="meni"
-            class="burger-meni"
-          />
+        <nav class="navbar d-flex">
+          <img src="assets/logo.png" alt="Stones Logo" class="mr-auto logo" />
+          <button
+            class="btn"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img src="assets/icon/meni.svg" alt="meni" class="burger-meni" />
+          </button>
+
           <div class="nav d-flex align-center">
             <a class="rose mr-50 uppercase">Tipovi kuca</a>
             <a class="rose mr-50 uppercase">Reference</a>
@@ -55,10 +58,20 @@
             <a class="rose uppercase">Kontakt</a>
           </div>
         </nav>
+        <div class="pos-f-t">
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="open-menu">
+              <h2>tipovi kuce</h2>
+              <h2>reference</h2>
+              <h2>o nama</h2>
+              <h2>kontakt</h2>
+            </div>
+          </div>
+        </div>
         <div class="hero-sec">
           <div class="headline">
             <h2 class="rose uppercase">jednostavno i brzo do</h2>
-            <h1 class="yellow uppercase ">vaseg</h1>
+            <h1 class="yellow uppercase">vaseg</h1>
             <h2 class="rose uppercase">doma</h2>
           </div>
           <div class="button">
@@ -70,7 +83,10 @@
             <li>
               <ul class="pb-100 text-center">
                 <a href="#"
-                  ><img src="assets/icon/viber.png" alt="069/454-444" height="43"
+                  ><img
+                    src="assets/icon/viber.png"
+                    alt="069/454-444"
+                    height="43"
                 /></a>
               </ul>
               <ul class="pb-100 text-center">
