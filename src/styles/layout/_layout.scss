@@ -16,7 +16,7 @@
   padding-top: 200px;
   padding-bottom: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .headline {
@@ -25,10 +25,14 @@
 
 nav {
   .d-flex {
+    a {
+      border-bottom: solid 2px transparent;
+    }
+
     a:hover {
       cursor: pointer;
       color: #e5d5d5;
-      border-bottom: 2px solid #e5d5d5;
+      border-bottom: solid 2px #e5d5d5;
     }
   }
 }
@@ -53,8 +57,12 @@ nav {
 }
 
 .catalog-btn:hover {
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
   transform: scale(1.1);
+}
+
+.active {
+  display: flex !important;
 }
 
 .aboutus-sec {
@@ -112,9 +120,14 @@ nav {
       }
     }
   }
+
   ol,
   ul {
     padding-left: 1rem;
+  }
+
+  h6 {
+    margin-bottom: 15px;
   }
 }
 
@@ -129,7 +142,8 @@ nav {
   margin-top: 80px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: baseline;
 }
 
 .icon-box {
@@ -173,6 +187,7 @@ nav {
 .bg3 {
   background-image: url("../assets/bg3.png");
   background-repeat: round;
+  margin-bottom: 100px;
 }
 
 .bg4 {
@@ -180,6 +195,7 @@ nav {
   background-repeat: round;
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 
   img {
     margin-right: 100px;
@@ -280,6 +296,6 @@ nav {
   border-radius: 20px;
 }
 
-.space-between {
-  justify-content: space-between;
+.space-around {
+  justify-content: space-around;
 }
