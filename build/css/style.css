@@ -171,7 +171,7 @@ p {
   padding-top: 200px;
   padding-bottom: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .headline {
@@ -188,8 +188,29 @@ nav .d-flex a:hover {
   border-bottom: solid 2px #e5d5d5;
 }
 
-.burger-meni {
+.burger-meni,
+.btn {
   display: none;
+}
+
+.open-menu {
+  height: 100%;
+  width: 90%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #e6d5d5;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+.open-menu h2 {
+  color: #322b2b;
+  margin-bottom: 70px;
+}
+
+.btn {
+  padding: 0;
 }
 
 .catalog-btn {
@@ -737,7 +758,7 @@ nav .d-flex a:hover {
   }
   h2 {
     font-size: 38px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     line-height: 70px !important;
   }
   h3 {
@@ -756,9 +777,9 @@ nav .d-flex a:hover {
   .nav {
     display: none !important;
   }
-  .burger-meni {
+  .burger-meni,
+  .btn {
     display: inline;
-    width: 9%;
   }
   .set-icon {
     display: none;
@@ -803,7 +824,7 @@ nav .d-flex a:hover {
     text-align: center;
   }
   .aboutus-sec div {
-    padding: 30px;
+    padding: 30px 15px;
   }
   .bg4 img {
     width: 48%;
@@ -833,7 +854,7 @@ nav .d-flex a:hover {
   }
   .bg4,
   h2 {
-    line-height: 60px !important;
+    line-height: 45px !important;
   }
   .row,
   .mb-40 {

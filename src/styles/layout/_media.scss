@@ -255,7 +255,7 @@
 
   h2 {
     font-size: 38px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     line-height: 70px !important;
   }
 
@@ -279,9 +279,10 @@
     display: none !important;
   }
 
-  .burger-meni {
+  .burger-meni,
+  .btn {
     display: inline;
-    width: 9%;
+    // width: 9%;
   }
 
   .set-icon {
@@ -344,7 +345,7 @@
 
   .aboutus-sec {
     div {
-      padding: 30px;
+      padding: 30px 15px;
     }
   }
 
@@ -383,7 +384,7 @@
 
   .bg4,
   h2 {
-    line-height: 60px !important;
+    line-height: 45px !important;
   }
 
   .row,
