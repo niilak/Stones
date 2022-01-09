@@ -42,8 +42,31 @@ nav {
   display: none;
 }
 
+.btn {
+  &:focus {
+    box-shadow: none;
+  }
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.set-icon {
+  li {
+    ul {
+      a {
+        img {
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}
+
 .open-menu {
-  position: absolute;
+  position: fixed;
   height: 100%;
   width: 85%;
   top: 0;
@@ -51,10 +74,18 @@ nav {
   background-color: rgba(230, 213, 213, 87%);
   padding-top: 100px;
   padding-left: 25px;
+  z-index: 2;
 
   h2 {
     color: #322b2b;
+    // padding-bottom: -15px;
     margin-bottom: 70px;
+    border-bottom: solid 2px transparent;
+    width: fit-content;
+    // height: fit-content;
+    &:hover {
+      border-bottom: solid 2px #322b2b;
+    }
   }
 }
 
@@ -170,6 +201,12 @@ nav {
 .icon-box {
   text-align: center;
   color: #e5d5d5;
+  a {
+    color: #e5d5d5;
+    &:hover {
+      color: #e5d5d5;
+    }
+  }
 
   img {
     margin-bottom: 25px;
@@ -236,6 +273,7 @@ nav {
   margin-top: 40px;
   padding-top: 60px;
   text-align: center;
+  background-size: cover;
 }
 
 .py-50 {

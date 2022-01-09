@@ -193,8 +193,20 @@ nav .d-flex a:hover {
   display: none;
 }
 
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.set-icon li ul a img:hover {
+  transform: scale(1.1);
+}
+
 .open-menu {
-  position: absolute;
+  position: fixed;
   height: 100%;
   width: 85%;
   top: 0;
@@ -202,11 +214,18 @@ nav .d-flex a:hover {
   background-color: #e6d5d5;
   padding-top: 100px;
   padding-left: 25px;
+  z-index: 2;
 }
 
 .open-menu h2 {
   color: #322b2b;
   margin-bottom: 70px;
+  border-bottom: solid 2px transparent;
+  width: fit-content;
+}
+
+.open-menu h2:hover {
+  border-bottom: solid 2px #322b2b;
 }
 
 .btn {
@@ -323,6 +342,14 @@ nav .d-flex a:hover {
   color: #e5d5d5;
 }
 
+.icon-box a {
+  color: #e5d5d5;
+}
+
+.icon-box a:hover {
+  color: #e5d5d5;
+}
+
 .icon-box img {
   margin-bottom: 25px;
 }
@@ -387,6 +414,7 @@ nav .d-flex a:hover {
   margin-top: 40px;
   padding-top: 60px;
   text-align: center;
+  background-size: cover;
 }
 
 .py-50 {
