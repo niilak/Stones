@@ -245,6 +245,21 @@
       }
     }
   }
+
+  // .row:nth-child(2) {
+  //   .yellow-rectangle {
+  //     &:nth-child(2) {
+  //       h6 {
+  //       }
+  //     }
+  //   }
+  // }
+
+  // &:nth-child(3) {
+  //   h6 {
+  //     text-transform: inherit;
+  //   }
+  // }
 }
 
 @media screen and (max-width: 800px) {
@@ -261,7 +276,7 @@
 
   h3 {
     font-size: 30px;
-    letter-spacing: 11px;
+    letter-spacing: 7px;
   }
 
   h6 {
@@ -305,6 +320,7 @@
   }
 
   .catalog-btn {
+    text-align: center;
     margin-top: 50px;
   }
 
@@ -334,33 +350,59 @@
         margin-top: 5px;
       }
     }
+  }
 
-    .button {
-      text-align: center;
+  .yellow-rectangle {
+    padding: 20px 15px;
+    p {
+      text-align: start;
     }
-
-    .aboutus-sec {
-      div {
-        padding: 30px 15px;
-      }
+    button {
+      float: right;
     }
+  }
 
-    .bg4 {
-      img {
-        width: 48%;
-        height: auto;
-      }
+  .button {
+    text-align: center;
+  }
+
+  .aboutus-sec {
+    div {
+      padding: 15px;
+    }
+  }
+
+  .bg4 {
+    img {
+      width: 48%;
+      height: auto;
     }
   }
 }
 
 @media screen and (max-width: 700px) {
+  #parent {
+    display: flex;
+    flex-flow: column;
+    #a {
+      order: 2;
+      margin: 30px 0;
+    }
+    #c {
+      order: 3;
+    }
+    #b {
+      order: 1;
+    }
+  }
+
   h1 {
     font-size: 36px;
   }
 
   h2 {
     font-size: 28px;
+    line-height: 54px !important;
   }
 
   .sec1 {
@@ -382,6 +424,18 @@
     h3 {
       font-weight: bold;
     }
+  }
+
+  .info {
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+    justify-content: flex-start;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .info::-webkit-scrollbar {
+    display: none;
   }
 
   .bg4 {
@@ -444,10 +498,6 @@
   h3 {
     font-size: 20px;
     letter-spacing: 10px;
-  }
-
-  h6 {
-    font-size: 14px;
   }
 
   p {

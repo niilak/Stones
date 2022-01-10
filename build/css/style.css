@@ -233,7 +233,7 @@ nav .d-flex a:hover {
 }
 
 .catalog-btn {
-  padding: 2px 22px;
+  padding: 4px 22px;
   margin-top: 225px;
   border-radius: 16px;
   background-color: #f3d642;
@@ -287,11 +287,13 @@ nav .d-flex a:hover {
 }
 
 .yellow-circle p {
+  color: #322b2b;
   margin-bottom: 0;
   line-height: 15px;
 }
 
 .yellow-circle h2 {
+  color: #322b2b;
   letter-spacing: normal;
 }
 
@@ -300,7 +302,7 @@ nav .d-flex a:hover {
   padding: 30px;
   text-align: center;
   border-radius: 10px;
-  border: 10px solid rgba(243, 214, 66, 0.25);
+  border: 10px solid rgba(243, 214, 66, 0.55);
 }
 
 .yellow-rectangle ul li {
@@ -320,6 +322,10 @@ nav .d-flex a:hover {
 
 .yellow-rectangle h6 {
   margin-bottom: 15px;
+}
+
+.yellow-rectangle:nth-child(3) {
+  text-transform: inherit;
 }
 
 .moreinfo-btn {
@@ -498,6 +504,10 @@ nav .d-flex a:hover {
 
 .space-around {
   justify-content: space-around;
+}
+
+.text-inherit {
+  text-transform: inherit !important;
 }
 
 .carousel-inner {
@@ -790,7 +800,7 @@ nav .d-flex a:hover {
   }
   h3 {
     font-size: 30px;
-    letter-spacing: 11px;
+    letter-spacing: 7px;
   }
   h6 {
     font-size: 17px;
@@ -824,6 +834,7 @@ nav .d-flex a:hover {
     padding-top: 150px;
   }
   .catalog-btn {
+    text-align: center;
     margin-top: 50px;
   }
   .yellow-circle {
@@ -847,24 +858,48 @@ nav .d-flex a:hover {
   .yellow-circle:nth-child(4) p {
     margin-top: 5px;
   }
-  .yellow-circle .button {
+  .yellow-rectangle {
+    padding: 20px 15px;
+  }
+  .yellow-rectangle p {
+    text-align: start;
+  }
+  .yellow-rectangle button {
+    float: right;
+  }
+  .button {
     text-align: center;
   }
-  .yellow-circle .aboutus-sec div {
-    padding: 30px 15px;
+  .aboutus-sec div {
+    padding: 15px;
   }
-  .yellow-circle .bg4 img {
+  .bg4 img {
     width: 48%;
     height: auto;
   }
 }
 
 @media screen and (max-width: 700px) {
+  #parent {
+    display: flex;
+    flex-flow: column;
+  }
+  #parent #a {
+    order: 2;
+    margin: 30px 0;
+  }
+  #parent #c {
+    order: 3;
+  }
+  #parent #b {
+    order: 1;
+  }
   h1 {
     font-size: 36px;
   }
   h2 {
     font-size: 28px;
+    line-height: 54px !important;
   }
   .sec1 {
     padding-left: 20px;
@@ -880,6 +915,16 @@ nav .d-flex a:hover {
   }
   .info-sec h3 {
     font-weight: bold;
+  }
+  .info {
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+    justify-content: flex-start;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .info::-webkit-scrollbar {
+    display: none;
   }
   .bg4 {
     flex-direction: column-reverse;
@@ -927,9 +972,6 @@ nav .d-flex a:hover {
   h3 {
     font-size: 20px;
     letter-spacing: 10px;
-  }
-  h6 {
-    font-size: 14px;
   }
   p {
     font-size: 12px;

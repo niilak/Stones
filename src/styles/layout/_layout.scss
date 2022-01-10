@@ -78,11 +78,9 @@ nav {
 
   h2 {
     color: #322b2b;
-    // padding-bottom: -15px;
     margin-bottom: 70px;
     border-bottom: solid 2px transparent;
     width: fit-content;
-    // height: fit-content;
     &:hover {
       border-bottom: solid 2px #322b2b;
     }
@@ -94,7 +92,7 @@ nav {
 }
 
 .catalog-btn {
-  padding: 2px 22px;
+  padding: 4px 22px;
   margin-top: 225px;
   border-radius: 16px;
   background-color: rgba(243, 214, 66, 85%);
@@ -147,11 +145,13 @@ nav {
   text-align: center;
 
   p {
+    color: #322b2b;
     margin-bottom: 0;
     line-height: 15px;
   }
 
   h2 {
+    color: #322b2b;
     letter-spacing: normal;
   }
 }
@@ -161,7 +161,7 @@ nav {
   padding: 30px;
   text-align: center;
   border-radius: 10px;
-  border: 10px solid rgba(243, 214, 66, 0.25);
+  border: 10px solid rgba(243, 214, 66, 0.55);
   ul {
     li {
       list-style-type: circle;
@@ -180,6 +180,10 @@ nav {
 
   h6 {
     margin-bottom: 15px;
+  }
+
+  &:nth-child(3) {
+    text-transform: inherit;
   }
 }
 
@@ -357,4 +361,7 @@ nav {
 
 .space-around {
   justify-content: space-around;
+}
+.text-inherit {
+  text-transform: inherit !important;
 }
